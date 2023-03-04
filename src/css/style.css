@@ -1,0 +1,214 @@
+:root {
+    /*principal*/
+
+    --Violeta-moderado: #7541c8;
+    --Azul-acinzentado-muito-escuro: #48556a;
+    --Azul-escuro-muito-escuro: #19212e;
+    --Branco: #ffffff;
+
+    /*neutro*/
+
+    --Cinza-claro: #cfcfcf;
+    --Azul-acinzentado-claro: #ecf2f8;
+    
+    /* 
+    1. "Verified Graduate" tem a mesma cor do nome da pessoa com 50% de opacidade
+
+    2. Os parágrafos de revisão dentro das citações também têm a mesma cor, mas com 70% de opacidade */
+
+
+
+    /*tipografia
+    
+    fonte 13px
+
+    */
+
+
+    --fontedoc:'Barlow Semi Condensed', sans-serif;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--fontedoc);
+    background-color: var(--Azul-acinzentado-claro);
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+/*general*/
+
+main {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 1440px;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+img {
+    width: 25px;
+    border-radius: 50%;
+}
+
+p {
+    opacity: 70%;
+}
+
+div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+article {
+    display: flex;
+    gap: 20px;
+}
+
+.section_1 {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.daniel, .jonathan, .jeanette, .patrick {
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #00000023;
+}
+
+
+/**/
+
+
+
+/*Daniel Clifford*/
+
+.daniel {
+    background-color: var(--Violeta-moderado);
+    width: 420px;
+    color: var(--Branco);
+
+}
+
+
+
+.daniel img {
+    border: 2px solid #9075ba;
+    
+}
+
+.daniel > h1 {
+    font-size: 15px;
+}
+
+.daniel > p {
+    line-height: 17px;
+    font-size: 10px;
+}
+
+
+/*jonathan*/
+
+.jonathan {
+    background-color: var(--Azul-acinzentado-muito-escuro);
+    color: #fff;
+    width: 200px;
+}
+
+.jonathan > h1 {
+    font-size: 16px;
+    
+}
+.jonathan > p {
+    line-height: 17px;
+    font-size: 10px;
+}
+
+
+
+/*jeanette*/
+
+.jeanette {
+    background-color: #fff;
+    color: var(--Azul-acinzentado-muito-escuro);
+    width: 190px;
+}
+
+
+
+
+
+/*patrick*/
+
+.patrick {
+    background-color: var(--Azul-escuro-muito-escuro);
+    color: #FFF;
+    width: 432px;
+    padding: 15px 25px 15px 25px;
+}
+
+.patrick img {
+    border: 2px solid #9075ba;
+}
+
+.patrick > p {
+    font-size: 10.5px;
+}
+aside > div h1{
+    font-size: 10px;
+}
+
+aside > div p {
+    font-size: 8px;
+}
+
+aside > h1 {
+    font-size: 16px;
+}
+
+aside > p {
+    line-height: 16px;
+    font-size: 10px;
+}
+
+
+
+/*Kira Whittle*/
+.section_2 {
+    background-color: #fff;
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border-radius: 8px;
+    width: 200px;
+    color: var(--Azul-acinzentado-muito-escuro);
+    box-shadow: 5px 5px 15px #00000023;
+}
+
+.section_2 > div {
+    font-size: 8px;
+
+}
+
+.section_2 > h1 {
+    font-size: 16px;
+    
+}
+.section_2 > p {
+    line-height: 15px;
+    font-size: 10px;
+}
+
