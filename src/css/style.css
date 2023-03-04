@@ -99,6 +99,10 @@ article {
     background-color: var(--Violeta-moderado);
     width: 420px;
     color: var(--Branco);
+    background-image: url(../img/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 78% 0%;
+    background-size: 20%;
 
 }
 
